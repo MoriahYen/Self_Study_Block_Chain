@@ -1,12 +1,11 @@
-# Self_Study_Block_Chain
-## 1. 閱讀"加密貨幣聖經：數位貨幣、數位資產、加密交易與區塊鏈的過去與未來
-The Basics of Bitcoins and Blockchains: An Introduction to Cryptocurrencies and the Technology that Powers Them (Cryptography, Crypto Trading, Digital Assets, NFT)"
-https://www.books.com.tw/products/0010919310
-## 2. 閱讀與實作"區塊鏈生存指南：帶你用Python寫出區塊鏈！【第二版】（iT邦幫忙鐵人賽系列書）"
-https://www.books.com.tw/products/0010931871?sloc=main
-## 3.學習與實作"在 2022 年，我們該如何寫智能合約"
-*[在 2022 年，我們該如何寫智能合約](https://youtube.com/playlist?list=PLHmOMPRfmOxQYDnXAc1hKY6ra4WDU8ZlM)*
-## 4. 學習與實作"Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript – 32-Hour Course"
-*[Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript – 32-Hour Course](https://youtu.be/gyMwXuJrbJQ)*
-## 5.學習與實作"JavaScript Programming - Full Course"
-*[JavaScript Programming - Full Course](https://youtu.be/jS4aFq5-91M)*
+# Lesson 5: Ethers.js Simple Storage Q&A
+## *[1. Cannot read properties of undefined (reading 'JsonRpcProvider') #2706](https://github.com/smartcontractkit/full-blockchain-solidity-course-js/discussions/2706#discussioncomment-4906223)*
+ethers 的版本有問題，回退到ver.5即可
+## *[2. Could Not Detect Network on deploy.js - WSL & Ganache #34](https://github.com/smartcontractkit/full-blockchain-solidity-course-js/discussions/34)*
+1.) 在VSCode的terminal使用Ganache(不同於UI) <br>
+2.) 用Ganache windows的UI時，調整防火牆設定 <br>
+
+# Lesson 6: Hardhat Simple Storage Q&A
+## Error: Cannot find module '../tasks/block-number'
+1.) 可能是多個地方有hardhat.config.js導致路徑出錯 <br>
+2.) block-number.js後多打了空白，導致出現leading or trailing spaces detected in file or....的問題
