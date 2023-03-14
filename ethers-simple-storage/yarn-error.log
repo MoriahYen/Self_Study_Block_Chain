@@ -1,0 +1,36 @@
+Arguments: 
+  /home/moriahyen/.nvm/versions/node/v16.14.2/bin/node /home/moriahyen/.cache/node/corepack/yarn/1.22.19/bin/yarn.js add solic@0.8.7-fixed
+
+PATH: 
+  /home/moriahyen/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/bin/remote-cli:/home/moriahyen/.nvm/versions/node/v16.14.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/TortoiseGit/bin:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32/wbem:/mnt/c/Program Files (x86)/IVT Corporation/BlueSoleil/Mobile:/mnt/c/Users/MoriahYen/anaconda3:/mnt/c/Users/MoriahYen/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/MoriahYen/anaconda3/Library/usr/bin:/mnt/c/Users/MoriahYen/anaconda3/Library/bin:/mnt/c/Users/MoriahYen/anaconda3/Scripts:/mnt/c/Users/MoriahYen/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/MoriahYen/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/MoriahYen/AppData/Roaming/npm:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/solic: Not found
+      at Request.params.callback [as _callback] (/home/moriahyen/.cache/node/corepack/yarn/1.22.19/lib/cli.js:66145:18)
+      at Request.self.callback (/home/moriahyen/.cache/node/corepack/yarn/1.22.19/lib/cli.js:140890:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (/home/moriahyen/.cache/node/corepack/yarn/1.22.19/lib/cli.js:141862:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (/home/moriahyen/.cache/node/corepack/yarn/1.22.19/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
