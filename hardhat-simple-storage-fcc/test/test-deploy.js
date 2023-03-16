@@ -1,10 +1,12 @@
 const { ethers } = require("hardhat")
 const { expect, assert } = require("chai")
 
+// describe is a keyward for mocha to recognize it.
 // describe("SimpleStorage", () => {})
 describe("SimpleStorage", function () {
     // let simpleStorageFactory
     // let simpleStorage
+    // let simpleStorageFactory, simpleStorage outside the scope, that it() can use it
     let simpleStorageFactory, simpleStorage
     beforeEach(async function () {
         simpleStorageFactory = await ethers.getContractFactory("SimpleStorage")
@@ -28,22 +30,22 @@ describe("SimpleStorage", function () {
         assert.equal(currentValue.toString(), expectedValue)
     })
 
-    // Extra - this is not in the video
-    it("Should work correctly with the people struct and array", async function () {
-        const expectedPersonName = "Patrick"
-        const expectedFavoriteNumber = "16"
-        const transactionResponse = await simpleStorage.addPerson(
-            expectedPersonName,
-            expectedFavoriteNumber
-        )
-        await transactionResponse.wait(1)
-        const { favoriteNumber, name } = await simpleStorage.people(0)
-        // We could also do it like this
-        // const person = await simpleStorage.people(0)
-        // const favNumber = person.favoriteNumber
-        // const pName = person.name
+    // // Extra - this is not in the video
+    // it("Should work correctly with the people struct and array", async function () {
+    //     const expectedPersonName = "Patrick"
+    //     const expectedFavoriteNumber = "16"
+    //     const transactionResponse = await simpleStorage.addPerson(
+    //         expectedPersonName,
+    //         expectedFavoriteNumber
+    //     )
+    //     await transactionResponse.wait(1)
+    //     const { favoriteNumber, name } = await simpleStorage.people(0)
+    //     // We could also do it like this
+    //     // const person = await simpleStorage.people(0)
+    //     // const favNumber = person.favoriteNumber
+    //     // const pName = person.name
 
-        assert.equal(name, expectedPersonName)
-        assert.equal(favoriteNumber, expectedFavoriteNumber)
-    })
+    //     assert.equal(name, expectedPersonName)
+    //     assert.equal(favoriteNumber, expectedFavoriteNumber)
+    // })
 })
