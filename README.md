@@ -16,9 +16,9 @@ string是一種byte <br>
  memory是可以被修改的臨時變量 <br>
  ABI: application binary interface，智能合約的I/O <br>
  link: 驗證(ERC20) <br>
- AggreratorV3Interface可以用來做ABI call，但AggreratorV3Interface不是ABI <br>
+ **AggreratorV3Interface**可以用來做ABI call，但AggreratorV3Interface不是ABI <br>
   <br>
- RPC URL(remote procedure call uniform resource location): 到某個正在運行的區塊鍊的連接 <br>
+ **RPC URL(remote procedure call uniform resource location):** 到某個正在運行的區塊鍊的連接 <br>
 
 # Lesson 5: Ethers.js Simple Storage Note
 ## *[1. Cannot read properties of undefined (reading 'JsonRpcProvider') #2706](https://github.com/smartcontractkit/full-blockchain-solidity-course-js/discussions/2706#discussioncomment-4906223)*
@@ -39,19 +39,22 @@ TypeScript是javascript的靜態行語言 <br>
 3.) npm install -D @nomiclabs/hardhat-waffle ethereum-waffle <br>
 
 # Lesson 7: Hardhat Fund Me Note
-hre>> hardhat runtime environment <br>
-getNamedAccounts is a function that returns a promise to an object whose keys are names and values are addresses. It is parsed from the namedAccounts configuration (see namedAccounts). <br>
-linting(tool>>EsLint): is the process of running a problem that will analysis code for potential errors. <br>
-solhint: lint for solidity <br>
-hardhat deploy: 用來deploy & test(在deploy folder) <br>
+**hre**>> hardhat runtime environment <br>
+**getNamedAccounts** is a function that returns a promise to an object whose keys are names and values are addresses. It is parsed from the namedAccounts configuration (see namedAccounts). <br>
+**linting(tool>>EsLint):** is the process of running a problem that will analysis code for potential errors. <br>
+**solhint:** lint for solidity <br>
+hardhat-deploy: 用來deploy & test(在deploy folder) <br>
 hardhat config是deploy的entry point <br>
-Q: 如何在hardhat network上測試?(原來是remix的test net) <br>
+**Q: 如何在hardhat network上測試?(原來是remix的test net)** <br>
 A: 用mocking <br>
-Q: What's mocking? <br>
+**Q: What's mocking?** <br>
 A: used for unit test. 一個object在測試的時候可能和其他的object有相依性, 於是利用mock來模擬其他的object. mocking is creating object that simulate the behavior of real object. <br>
-unit test: testing method by which individual units of source code are tested. (on local network) <br>
-staging test: 假設都已經deploy上test net, 沒有mock. (only on test net) <br>
-AAVE: 可以用在不同的chain上, helper-network-config根據不同的chain使用不同的參數(address) <br>
+mock似一個**虛擬的**餵價(price feed)合約(price feed contract: USD/ETH...etc.)，用來做最小化的本地測試 <br>
+**unit test:** testing method by which individual units of source code are tested. (on local network) <br>
+**staging test:** 假設都已經deploy上test net, 沒有mock. (only on test net) <br>
+**AAVE:** 可以用在不同的chain上, **helper-network-config**根據不同的chain使用不同的參數(address) <br>
+waffle test: "expect"<br>
+contract自帶的function, proprities(在ethers document): attach, connect, address, provider... <br>
 
 
 
