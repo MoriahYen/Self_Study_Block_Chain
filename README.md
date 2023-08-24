@@ -3,7 +3,7 @@
 The Basics of Bitcoins and Blockchains: An Introduction to Cryptocurrencies and the Technology that Powers Them (Cryptography, Crypto Trading, Digital Assets, NFT)"
 https://www.books.com.tw/products/0010919310
 ## 2. 閱讀與實作"區塊鏈生存指南：帶你用Python寫出區塊鏈！【第二版】（iT邦幫忙鐵人賽系列書）"
-https://www.books.com.tw/products/0010931871?sloc=main
+https://www.books.com.tw/products/0010931871?sloc=main <br>
 **[branch] pythonBlockchain** <br>
 ## 3.學習與實作"在 2022 年，我們該如何寫智能合約"
 *[在 2022 年，我們該如何寫智能合約](https://youtube.com/playlist?list=PLHmOMPRfmOxQYDnXAc1hKY6ra4WDU8ZlM)*
