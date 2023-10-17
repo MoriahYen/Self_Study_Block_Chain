@@ -1,13 +1,6 @@
-# Sample Hardhat Project
+# hardhat-simple-storage-fcc
+1. 學習在自己的hardhat裡新增項目(tasks: block-number)<br>
+2. 學習hardhat.config.js的使用<br>
+3. 學習撰寫測試test-deploy.js<br>
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+[Differences between ethers.getContractFactory( ), new ethers.Contract( ), and new ethers.ContractFactory( ) in ethers library](https://ethereum.stackexchange.com/questions/139213/differences-between-ethers-getcontractfactory-new-ethers-contract-and-ne)
